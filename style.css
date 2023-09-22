@@ -1,0 +1,482 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0% 0%;
+    box-sizing: border-box;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page1{
+    height: auto;
+    background-color: #636c79; 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+nav ul li{
+    list-style: none;
+    color: rgb(223, 223, 223);
+    font-size: 16px;
+    font-weight: 500;
+}
+.bi-list{
+    display: none;
+}
+.nav-button{
+    background-color: #636c79;
+    color: rgb(223, 223, 223);
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid rgb(143, 142, 142);
+    border-radius: 5px;
+    padding: 0.8rem 3rem;
+    margin-left: 2rem;
+}
+.page1-main{
+    display: flex;
+    align-items: center;
+    padding: 4rem 0;
+}
+.page1-main-left{
+    width: 50%;
+}
+.page1-main-right{
+    width: 50%;
+}
+.page1-main-img{
+    width: 450px;
+    height: 550px;
+    border-radius: 1%;
+    margin-left: 7rem;
+    object-fit: cover;
+    object-position: 50% 0;
+}
+.page1-heading{
+    color: white;
+    font-size: 55px;
+    width: 30rem;
+}
+.page1-text{
+    width: 32rem;
+    color: rgb(185, 185, 185);
+    font-size: 20px;
+    padding: 2rem 0;
+    line-height: 1.8rem;
+    font-weight: 500;
+}
+.page1-btn-bg{
+    width: 30.5rem;
+    background-color: white;
+    border: none;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    font-size: 16px;
+    color: gray;
+}
+.bi-envelope-fill{
+    padding: 0 1rem;
+}
+.page1-btn{
+    margin-left: 6rem;
+    background-color: #91be8d;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 1.1rem 3rem;
+    border: none;
+}
+.page2{
+    height: auto;
+    padding: 5rem 0rem;
+}
+.page2-heading{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    width: 40rem;
+    margin: auto;
+}
+.page2-project{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4rem 0;
+}
+.count{
+    font-size: 40px;
+    font-weight: 550;
+    text-align: center;
+}
+.des{
+    padding-top: 1rem;
+    color: rgb(92, 90, 90);
+    font-weight: 600;
+    font-size: 18px;
+}
+.page2-img{
+    width: 1100px;
+    height: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    object-position: 0% 0%;
+}
+.page3{
+    height: auto;
+    padding: 5rem 0;
+}
+.page3-heading{
+    color: black;
+    font-size: 45px;
+    text-align: center;
+    width: 30rem;
+    margin: auto;
+}
+.page3-content{
+    display: flex;
+    align-items: center;
+    padding: 4rem 7rem;
+    gap: 8rem;
+}
+.page3-h1{
+    font-size: 40px;
+    width: 30rem;
+}
+.page3-text{
+    color: rgb(92, 90, 90);
+    line-height: 1.8rem;
+    font-size: 20px;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    width: 30rem;
+}
+.page-btn{
+    background-color: #91be8d;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 1rem 3rem;
+    border: none;
+}
+.page3-img{
+    width: 480px;
+    height: 480px;
+    object-fit: cover;
+    object-position: 100% 0%;
+}
+.page4{
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 0rem 7rem;
+    gap: 8rem;
+}
+.page4-img{
+    width: 480px;
+    height: 480px;
+    object-fit: cover;
+    object-position: 0% 10%;
+}
+.page4-h1{
+    font-size: 40px;
+    width: 30rem;
+}
+.page4-text{
+    color: rgb(92, 90, 90);
+    line-height: 1.8rem;
+    font-size: 20px;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    width: 32rem;
+}
+.page5{
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 8rem 7rem;
+    gap: 8rem;
+}
+.page5-img{
+    width: 480px;
+    height: 480px;
+    object-fit: cover;
+    object-position: 38% 0%;
+}
+.page5-h1{
+    font-size: 40px;
+    width: 32rem;
+}
+.page5-text{
+    color: rgb(92, 90, 90);
+    line-height: 1.8rem;
+    font-size: 20px;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    width: 32rem;
+}
+.page6{
+    height: auto;
+    padding: 2rem 0;
+}
+.page6-part1{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+.page6-h1{
+    font-size: 40px;
+    width: 20rem;
+}
+.page6-text{
+    color: rgb(92, 90, 90);
+    line-height: 1.8rem;
+    font-size: 20px;
+    width: 32rem;
+}
+.page6-part2{
+    padding: 4rem 7rem;
+    display: flex;
+    align-content: center;
+    gap: 4rem;
+}
+.card1-img{
+    width: 330px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 0% 8%;
+}
+.card2-img{
+    width: 330px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 0% 45%;
+}
+.card3-img{
+    width: 330px;
+    height: 400px;
+    object-fit: cover;
+    object-position: 0% 48%;
+}
+.card-heading{
+    font-size: 20px;
+    padding: 1rem 0;
+}
+.card-text{
+    color:#636c79 ;
+    line-height: 1.6rem;
+    width: 19rem;
+}
+.page6-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    background-color: #91be8d;
+    color: white;
+    font-size: 18px;
+    padding: 1rem 3rem;
+    border: none;
+}
+footer{
+    background-color: black;
+    height: auto;
+    padding: 4rem 7rem;
+}
+.bi-instagram, .bi-facebook, .bi-twitter, .bi-github, .bi-linkedin{
+    color: white;
+    background-color: #2c2c2c;
+    padding: 0.8rem;
+    border-radius: 50%;
+    margin-right: 0.8rem;
+}
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+}
+.line-break{
+    border: 0.5px solid #2c2c2c;
+}
+.table-section{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.table-list ul li{
+    list-style: none;
+    color: gray;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+.table-list ul li:first-child{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+@media screen and (max-width:520px){
+    nav ul li{
+        display: none;
+    }
+    .bi-list{
+        display: block;
+        color: white;
+    }
+    .page1-main {
+       display: block;
+    }
+    .page1-main-img {
+        width: 300px;
+        height: 350px;
+    }
+    .page1-main-right {
+        padding: 2rem;
+    }
+    .page1-heading {
+        font-size: 30px;
+    }
+    .page1-text {
+        font-size: 16px;
+        width: 100%;
+    }
+    .page1-btn-bg {
+        width: 25rem;
+        font-size: 16px;
+    }
+    .page1-btn {
+        margin-left: 3.4rem;
+        padding: 0.5rem 1.5rem;
+    }
+    .page2-heading {
+        font-size: 25px;
+        width: 25rem;
+    }
+    .count {
+        font-size: 25px;
+    }
+    .des {
+        font-size: 14px; 
+    }
+    .page2-img {
+        width: 450px;
+        height: 250px;
+    }
+    .page3 {
+        padding: 0rem;
+    }
+    .page3-heading {
+        font-size: 25px;
+        width: 15rem;
+    }
+    .page3-content {
+        flex-wrap: wrap;
+        padding: 2rem;
+        gap: 1rem;
+    }
+    .page3-h1 {
+        font-size: 20px;
+        width: 15rem;
+    }
+    .page3-text {
+        font-size: 16px;
+        width: 15rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .page-btn {
+        padding: 0.5rem 1.5rem;
+        font-size: 14px;
+    }
+    .page3-img {
+        width: 200px;
+        height: 250px;
+    }
+    .page4{
+        gap: 1rem;
+        padding: 2rem;
+        flex-wrap: wrap;
+    }
+    .page4-h1 {
+        font-size: 20px;
+        width: 15rem;
+    }
+    .page4-text {
+        font-size: 16px;
+        width: 15rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .page4-img {
+        width: 200px;
+        height: 300px;
+    }
+    .page5{
+        gap: 1rem;
+        padding: 2rem;
+        flex-wrap: wrap;
+    }
+    .page5-h1 {
+        font-size: 20px;
+        width: 12rem;
+    }
+    .page5-text {
+        font-size: 16px;
+        width: 15rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .page5-img {
+        width: 200px;
+        height: 250px;
+    }
+    .page6-part1 {
+        display: block;
+        padding: 0 2rem;
+    }
+    .page6-h1 {
+        font-size: 25px;
+        width: 15rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .page6-text {
+        padding-top: 1rem;
+        font-size: 16px;
+        width: 29rem;
+    }
+    .page6-part2 {
+        padding: 2rem;
+        display: block;
+    }
+    .card1{
+        padding-bottom: 2rem;
+    }
+    .card2{
+        padding-bottom: 2rem;
+    }
+    footer {
+        padding: 4rem 2rem;
+    }
+    .social-media{
+        padding-top: 2rem;
+    }
+    .logo-section {
+        flex-wrap: wrap;
+    }
+    .table-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
